@@ -332,6 +332,7 @@ form input[type="submit"]:hover {
     border-bottom: 1px solid #FFE66B;
     width: 150%;
     cursor: text;
+    border-radius: none;
 }
 .newsletter:placeholder{
     color: rgba(255, 230, 107, 0.75);
