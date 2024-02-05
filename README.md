@@ -1,21 +1,23 @@
-## Estructura de Carpetas
+## Folder Structure
 
-- **`html`**: Contiene archivos HTML para representar diferentes páginas. Ejemplo: `home.html` podría ser la página principal.
+- **`html`**: Contains HTML files representing different pages. For example, `home.html` could be the main page.
 
-- **`css`**: Almacena archivos CSS que definen la apariencia y el diseño de las páginas HTML.
+- **`css`**: Stores CSS files defining the appearance and layout of HTML pages.
 
-- **`misc`**: Carpeta para archivos diversos. En este caso, imágenes como `hamilton1.png` (fondo) y `hamilton2.png` (imagen de Hamilton).
+- **`misc`**: Folder for miscellaneous files. In this case, it includes images like `hamilton1.png` (background) and `hamilton2.png` (Hamilton's image).
 
-## Estructura de Archivos
+## File Structure
 
-- **`index.html`**: Archivo principal HTML, posiblemente la página de entrada o principal del proyecto.
+- **`index.html`**:HTML file, redirect to the main page of the project.
 
-- **`style.css`**: Archivo de estilo para definir la presentación del contenido HTML.
+- **`home.html`**:Main HTML file, main page of the project.
 
-## Instrucciones de Uso
+- **`style.css`**: Style file to define the presentation of HTML content.
 
-1. **Clonar el Repositorio**: `git clone https://github.com/tu-usuario/tu-proyecto.git`.
+## Usage Instructions
 
-2. **Abrir el Proyecto**: Abre el archivo `index.html` en tu navegador para visualizar el proyecto.
+1. **Clone the Repository**: `git clone https://github.com/your-username/your-project.git`.
 
-Esta estructura proporciona una organización clara y modular para tu proyecto, facilitando el mantenimiento y la colaboración. Asegúrate de adaptarla según las necesidades específicas de tu aplicación web.
+2. **Open the Project**: Open the `index.html` file in your browser to view the project.
+
+This structure provides a clear and modular organization for your project, making maintenance and collaboration easier. Make sure to adapt it to the specific needs of your web application.
