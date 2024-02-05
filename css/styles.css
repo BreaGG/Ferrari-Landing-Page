@@ -31,6 +31,10 @@ body {
     border: none;
 }
 
+nav img {
+    margin-left: 50%;
+}
+
 #hero div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -152,6 +156,10 @@ nav div {
     background-image: url(../misc/hamilton1.png);
     background-size: cover;
     width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
 } 
 
 #maranello div h2 {
@@ -162,6 +170,7 @@ nav div {
     font-weight: 400;
     line-height: normal;
     text-transform: capitalize;
+    margin-bottom: 0;
 }
 
 #maranello div h2 span {
@@ -291,22 +300,6 @@ footer h2 {
     line-height: normal;
 }
 
-.newsletter {
-    background-color: #ffffff00;
-    border: none;
-    border-bottom: 1px solid #FFE66B;
-    width: 150%;
-    cursor: text;
-}
-
-.newsletter:placeholder{
-    color: rgba(255, 230, 107, 0.75);
-}
-
-.newsletter:focus {
-    outline: none;
-}
-
 form input {
     cursor: pointer;
     color: #FFE66B;
@@ -315,4 +308,26 @@ form input {
     padding-left: 1rem;
     padding-right: 1rem;
     background-color: #ffffff00;
+    transition: .3s;
+}
+
+form input[type="submit"]:hover {
+    cursor: pointer;
+    border: 1px solid #FFF;
+    color: #FFF;
+    transition: .3s;
+}
+
+.newsletter {
+    background-color: #ffffff00;
+    border: none;
+    border-bottom: 1px solid #FFE66B;
+    width: 150%;
+    cursor: text;
+}
+.newsletter:placeholder{
+    color: rgba(255, 230, 107, 0.75);
+}
+.newsletter:focus {
+    outline: none;
 }
