@@ -72,6 +72,7 @@ nav {
     top: 0;
     background-color: #222222;
     border-bottom: 1px solid #FFE66B;
+    z-index: 3;
 }
 
 nav a {
@@ -85,8 +86,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #222222;
-    text-decoration: underline;
+    color: #FFF;
     transition: .3s ;
 }
 
@@ -99,6 +99,7 @@ nav div {
     margin-top: -10%;
     font-size: 74px;
     padding-bottom: 5rem;
+    text-transform: capitalize;
 }
 
 #intro {
@@ -178,14 +179,140 @@ nav div {
 }
 
 .enlace {
-    width: 100%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: right;
+    text-align: right;
+    font-size: 1.5rem;
 }
 
-#maranello a {
-    text-align: right;
+.enlace a {
     color: #FFF;
+}
+
+#giallo-modena {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+#giallo-modena h2 {
+    text-align: center;
+    font-family: "The Next Font";
+    font-size: 8.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#giallo-modena h3 {
+    color: #FFF;
+    margin-top: -12%;
+    text-align: center;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+#giallo-modena div {
+    margin-bottom: -8%;
+    z-index: 2;
+}
+
+#giallo-modena  p {
+    color: #FFF;
+    text-align: center;
     font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 70%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5rem;
+    border-top: 1px solid #FFE66B;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-bottom: 3rem;
+}
+
+footer a:hover {
+    color: #FFF;
+    transition: .3s;
+}
+footer a {
+    transition: .3s;
+}
+.socials {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.socials a {
+    color: #FFE66B; 
+    font-size: 1.2rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.info a {
+    color: #FFE66B;
+    text-decoration:none;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: -50%;
+}
+
+.info ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+footer h2 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.newsletter {
+    background-color: #ffffff00;
+    border: none;
+    border-bottom: 1px solid #FFE66B;
+    width: 150%;
+    cursor: text;
+}
+
+.newsletter:placeholder{
+    color: rgba(255, 230, 107, 0.75);
+}
+
+.newsletter:focus {
+    outline: none;
+}
+
+form input {
+    cursor: pointer;
+    color: #FFE66B;
+    border: 1px solid #FFE66B;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #ffffff00;
 }
