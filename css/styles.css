@@ -128,7 +128,7 @@ nav div {
     font-size: 1.875vw;
     font-weight: 300;
     line-height: normal;
-    width: 65%;
+    width: 55%;
 }
 
 #maranello {
@@ -186,7 +186,7 @@ nav div {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 65%;
+    width: 55%;
 }
 
 .enlace {
@@ -200,6 +200,12 @@ nav div {
 
 .enlace a {
     color: #FFF;
+    transition: .3s;
+}
+
+.enlace a:hover {
+    color: #FFE66B;
+    transition: .3s;
 }
 
 #giallo-modena {
@@ -342,7 +348,7 @@ form input[type="submit"]:hover {
     }
 
     #hero h1 {
-        font-size: 3.5rem;
+        font-size: 3.4rem;
     }
 
     #hero h2 {
@@ -360,5 +366,113 @@ form input[type="submit"]:hover {
 
     nav {
         display: none;
+    }
+
+    #intro h2 {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    #intro p {
+        font-size: 1rem;
+        width: 90%;
+    }
+
+    #maranello h2 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    #maranello img {
+        width: 10%;
+    }
+
+    #maranello div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #maranello div h2  {
+        font-size: 2rem;
+        height: 10rem;
+    }
+
+    #maranello img {
+        width: 100%
+    }
+
+    #maranello p {
+        font-size: 1rem;
+        width: 95%;
+    }
+
+    .enlace {
+        font-size: 1rem;
+        margin-right: -30%;
+    }
+
+    #giallo-modena h2{
+        font-size: 5rem;
+        margin-bottom: 0;
+    }
+
+    #giallo-modena h3 {
+        margin-top: 0;
+        margin-bottom: -5%;
+        font-size: 1rem;
+    }
+
+    #giallo-modena img {
+        width: 100%;
+    }
+
+    #giallo-modena p {
+        font-size: 1rem;
+        width: 95%;
+    }
+
+    footer {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    
+    .socials a {
+        color: #FFE66B; 
+        font-size: 0.8rem;
+    }
+    
+    .info {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+    
+    .info a {
+        color: #FFE66B;
+        text-decoration:none;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-left: -50%;
+    }
+    
+    .info ul {
+        list-style: none;
+        margin-left: 0;
+    }
+    
+    footer h2 {
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+    }
+
+    .newsletter {
+        width: 120%;
     }
 }
