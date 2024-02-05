@@ -317,6 +317,7 @@ form input {
     padding-right: 1rem;
     background-color: #ffffff00;
     transition: .3s;
+    border-radius: none;
 }
 
 form input[type="submit"]:hover {
