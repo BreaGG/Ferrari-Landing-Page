@@ -16,7 +16,7 @@
 
 ## Usage Instructions
 
-1. **Clone the Repository**: `git clone https://github.com/your-username/your-project.git`.
+1. **Clone the Repository**: `git clone https://github.com/BreaGG/Ferrari-Landing-Page`.
 
 2. **Open the Project**: Open the `index.html` file in your browser to view the project.
 
